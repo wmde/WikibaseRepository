@@ -36,6 +36,8 @@
 		"wikibase/data-model-javascript": "~0.3.0",
 		"wikibase/data-model-serialization": "~1.2",
 		"wikibase/internal-serialization": "~1.3",
+		"wikibase/lib": "@dev",
+
 		"wikibase/serialization-javascript": "~1.1.1",
 
 		"diff/diff": "~1.0",
@@ -46,10 +48,10 @@
 			"Wikibase.php"
 		],
 		"classmap": [
-			"repo/includes/",
-			"repo/maintenance/",
-			"repo/tests/phpunit/",
-			"repo/Wikibase.hooks.php"
+			"includes/",
+			"maintenance/",
+			"tests/phpunit/",
+			"Wikibase.hooks.php"
 		],
 		"psr-4": {
 			"Wikibase\\Repo\\View\\": "repo/includes/View"
