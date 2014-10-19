@@ -21,7 +21,7 @@ use Wikibase\Repo\IO\LineReader;
 use Wikibase\Repo\Store\EntityIdPager;
 use Wikibase\Repo\WikibaseRepo;
 
-$basePath = getenv( 'MW_INSTALL_PATH' ) !== false ? getenv( 'MW_INSTALL_PATH' ) : __DIR__ . '/../../../..';
+$basePath = getenv( 'MW_INSTALL_PATH' ) !== false ? getenv( 'MW_INSTALL_PATH' ) : __DIR__ . '/../../..';
 
 require_once $basePath . '/maintenance/Maintenance.php';
 

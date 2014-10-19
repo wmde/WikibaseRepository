@@ -10,7 +10,7 @@ use Wikibase\Repo\Store\SQL\EntityPerPageTable;
 use Wikibase\Repo\Store\SQL\ItemsPerSiteBuilder;
 use Wikibase\Repo\WikibaseRepo;
 
-$basePath = getenv( 'MW_INSTALL_PATH' ) !== false ? getenv( 'MW_INSTALL_PATH' ) : __DIR__ . '/../../../..';
+$basePath = getenv( 'MW_INSTALL_PATH' ) !== false ? getenv( 'MW_INSTALL_PATH' ) : __DIR__ . '/../../..';
 
 require_once $basePath . '/maintenance/Maintenance.php';
 
